@@ -14,3 +14,9 @@ function reverseString(str) {
 const originalString = "hello";
 const reversedString = reverseString(originalString);
 console.log(reversedString); // Output: "olleh"
+
+//example reverse array
+function reverseArray(arr) {
+    return arr.reverse();
+}
+console.log(reverseArray([1, 2, 3, 4, 5])); 
